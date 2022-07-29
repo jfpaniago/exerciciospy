@@ -1,0 +1,7 @@
+nome = str(input('qual é seu nome, meu consagrado?')).strip()
+print('seu nome com tudo maiusculo é: {} '.format(nome.upper()))
+print('seu nome com tudo minusculo é: {} '.format(nome.lower()))
+y=(nome.count(' '))
+x=(len(nome))
+print('seu nome tem {} letras'.format(x-y))
+print('seu primeiro nome tem: {} letras'.format(nome.find(' ')))

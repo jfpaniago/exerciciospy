@@ -1,0 +1,6 @@
+n = input('digite algo:')
+print('o tipo do valor que voce digitou é',type(n))
+print('ele é composto apenas por letras?',n.isalpha())
+print('ele é composto apenas por numeros?',n.isnumeric())
+print('ele é composto por letras ou numeros?',n.isalnum())
+print('ele é um digito?', n.isdigit())
